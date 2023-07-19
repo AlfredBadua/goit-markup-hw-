@@ -38,6 +38,7 @@ body {
 .link{
   text-decoration: none;
   font-family: inherit;
+
    
 }
 
@@ -48,7 +49,16 @@ body {
 .button{
   cursor: pointer;
   font-family: inherit;
-}
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  text-align: center;
+  }
 
 .text{
 color: var(--secondary-text)
@@ -143,8 +153,8 @@ color: var(--secondary-text)
 }
 
 .header-contact-link{
-  font-weight: 400;
   color: var(--secondary-text);
+  font-weight: 400;
  
 }
 
@@ -176,9 +186,7 @@ color: var(--secondary-text)
   
   .footer-text{
     color: var(--footer-text, #F4F4FD);
-    
   }
-  .footer{}
   
   /* end of footer */
 
@@ -204,19 +212,10 @@ color: var(--secondary-text)
 .hero-button{
   color: var(--hero-title);
   background-color: var(--background-hero-button);
-  border: none;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  font-family: inherit;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.64px;
 }
 
 .hero-button:hover,
-.hero-button:active{
+.hero-button:focus{
   background-color: var(--background-hero-button-hover);
  }
 
@@ -260,19 +259,18 @@ color: var(--secondary-text)
 /* our team */
 
 .our-team{
-  color: inherit;
+  
 }
 .our-team-heading2{
-  color: inherit;
+ 
 }
 .our-team-list{
-  color: inherit;
+  
 }
-.our-team-item{
-  color: inherit;
-}
+.our-team-item{}
+ 
 .our-team-heading3{
-  color: inherit;
+
 }
 .our-team-text{
   color: var(--secondary-text);
@@ -287,26 +285,17 @@ color: var(--secondary-text)
 /* filters */
 
 .filters-and-project{
-
-}
-
-.filter-button{
-color: var(--primary-brand);
-background: var(--filter-button);
-text-align: center;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.64px;
-border-radius: 4px;
-border: 1px solid var(--filter-button-border);
-background: var(--filter-button);
 }
 
 .filter-list{
 }
 .filter-item{
+}
+
+.filter-button{
+  color: var(--primary-brand);
+  background: var(--filter-button);
+  border: 1px solid var(--filter-button-border);
 }
 
 .filter-button-all, 
@@ -329,60 +318,17 @@ background: var(--filter-button);
 
 /* end of filters */
 
-/* apps */
+/* projects */
 
-/* row 1 */
+.project-list{}
+.project-item{}
+.project-title{}
 
-.apps-row1-list{
+.project-description{
   color: inherit;
 }
-.apps-row1-item{
-  color: inherit;
-}
-.apps-row1-header3{
-  color: inherit;
-}
-.apps-row1-text{
-  color: var(--secondary-text);
-}
+/* end of project*/
 
-/* end of row 1 */
-
-/* row 2 */
-
-.apps-row2-list{
-  color: inherit;
-}
-.apps-row2-item{
-  color: inherit;
-}
-.apps-row2-header3{
-  color: inherit;
-}
-.apps-row2-text{
-  color: var(--secondary-text);
-}
-
-/* end of row 2 */
-
-/* row 3 */
-
-.apps-row3-list{
-  color: inherit;
-}
-.apps-row3-item{
-  color: inherit;
-}
-.apps-row3-header3{
-  color: inherit;
-}
-.apps-row3-text{
-  color: var(--secondary-text);
-}
-
-/* end of row 3 */
-
-/* end of apps */
 /* end of main - portfolio */
 
 
